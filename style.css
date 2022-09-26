@@ -202,6 +202,11 @@ header{
     
 }
 
+span{
+
+    border-bottom: dotted;
+}
+
 #textArea{
 
     padding: 15px 10px 25px 10px;
