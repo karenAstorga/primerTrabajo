@@ -1,16 +1,20 @@
+.contenedor{
 
-header{
-    
     background: grey;
     color: white;
-
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
 }
 
 .imagenCodo{
 
     display: inline-flex;
-    width: 80px;
-    height: 80px;
+    width:10em;
+    
 }
 
 .parrafoEncabezado{
@@ -19,14 +23,7 @@ header{
     font-size: large;
 }
 
-#linksEncabezado{
 
-    display: flex;
-    position: absolute;
-    top: 20px;
-    right: 0px; 
-    
-}
 
 .linksIniciales{
 
@@ -37,187 +34,7 @@ header{
       
 }
 
-#botonTransparente{
 
-    background-color: transparent;
-    color: white;
-    border: 1px solid #f2f5f6;
-    
-}
-
-.botonesBuenos{
-
-    border-color: white;
-    position: absolute;
-    bottom: 50px;
-    right: 20px;
-    color: white;
-}
-
-.buenosAires{
-    
-    position: absolute;
-    bottom: 100px;
-    right: 16px;
-    color: white;
-    font-weight: bolder;
-
-}
-
-.imagenBuenos{
-
-    width: 100%;
-    height: auto;
-    margin: auto;
-    position: relative;
-    filter: brightness(50%)
-   
-}
-
-.titulosTarjetas{
-
-    text-align: center;
-    padding: 15px;
-
-}
-
-.btnDch{
-
-    padding: 2px;
-    border-radius: 5px;
-    position: absolute;
-    left: 5%;
-    display: inline-block;
-    background-color: orange;
-    color: black;
-    font-size: 12px;
-    font-weight: bolder;
-
-}
-
-.btnIzq{
-
-    padding: 2px;
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    background-color: blue;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: bolder;
-    
-}
-
-
-.btnDchAda{
-
-    color: white;
-    margin: auto;
-    padding: 2px;
-    border-radius: 5px;
-    position: absolute;
-    left: 5%;
-    display: inline-block;
-    background-color: rgb(189, 15, 111);
-    font-size: 12px;
-    font-weight: bolder;
-
-}
-
-.btnIzqAda{
-
-    padding: 2px;
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    background-color: rgb(55, 51, 51);
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: bolder;
-
-}
-
-.tituloCard{
-
-    text-align: left;
-
-}
-
-#Steve{
-
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-
-#Bill{
-
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-
-#Ada{
-
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-
-}
-
-#columnaGris{
-
-    background-color: rgb(62, 61, 61);
-    color: white;
-}
-
-#botonTranparenteHonolulu{
-
-    background-color: transparent;
-    color: white;
-    display: flex;
-
-}
-
-.titulosFormulario{
-
-    text-align: center;
-
-}
-
-#formulario{
-    
-    padding: 15px;
-    display: flexbox;
-
-}
-
-.formulario{
-
-    padding: 15px;
-    width: 75%;
-    
-}
-
-span{
-
-    border-bottom: dotted;
-}
-
-#textArea{
-
-    padding: 15px 10px 25px 10px;
-    
-}
-
-#botonEnviar{
-
-    background-color: rgb(17, 95, 17);
-   
-}
 
 footer{
 

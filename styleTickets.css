@@ -1,0 +1,101 @@
+.tresTarjetas{
+
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 2em 0;
+}
+
+.card{
+
+    text-align: center;
+    margin: 1em;
+}
+
+#formulario{
+    
+    padding: 15px;
+    display: flexbox;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+.titulosFormulario{
+
+    text-align: center;
+
+}
+.nombres{
+
+    padding: 0.7rem;
+
+}
+
+.correo{
+
+    padding: 0.7rem 0.7rem 0 0.7rem ;
+
+}
+
+.elegir{
+
+    display: flex;
+    
+}
+
+.pagos{
+
+    padding: 0 0.7rem 0.7rem 0.7rem;
+    
+}
+
+.total{
+
+    padding: 0.7rem 0 0.7rem 0;
+}
+
+#totalPagar{
+
+    background-color: rgb(172, 172, 221);
+    padding: 0.8rem;
+}
+
+.botonesFormulario{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.botones{
+
+    border-radius: 5px;
+    background-color: rgb(40, 176, 52);
+    color: aliceblue;
+    width: 25vw;
+   
+}
+
+.botones:hover{
+
+    border: rgb(33, 88, 38);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+
+    .tresTarjetas{
+
+        flex-direction: column;
+
+    }
+
+    #formulario{
+
+        width: 100vw;
+    }
+
+
+    
+}
