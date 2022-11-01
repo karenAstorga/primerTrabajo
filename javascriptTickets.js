@@ -10,7 +10,7 @@
  var trainee= general*0.5
  var junior= general*0.85
  var total= 0
- console.log(estudiante)
+ 
 
  function calculaTicket() {
 
@@ -18,28 +18,34 @@
     var cuantos= cantidad.value;
     cuantos= parseInt(cuantos)
 
-    switch (ticket) {
-        case "Estudiante":
+    if (cuantos < 0) {
+        alert("El número debe ser superior a 0");
+    } else {
 
-            total= cuantos*estudiante
+        switch (ticket) {
+            case "Estudiante":
 
-            break;
-        case "Trainee":
+                total= cuantos*estudiante
 
-            total= cuantos*trainee
-            break;
-        case "Junior":
+                break;
+            case "Trainee":
 
-            total= cuantos*junior
-            break;
-    
-        default:
+                total= cuantos*trainee
+                break;
+            case "Junior":
 
-            total= cuantos*general
-            
+                total= cuantos*junior
+                break;
+        
+            default:
+
+                total= cuantos*general
+                
+        }
+
     }
 
-    return ("Total a pagar $"+ total)
+    return (`Total a pagar $${total}`)
     
  }
 
