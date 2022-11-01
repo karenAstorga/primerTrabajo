@@ -14,8 +14,8 @@
 
  function calculaTicket() {
 
-    var ticket= categoria.value;
-    var cuantos= cantidad.value;
+    let ticket= categoria.value;
+    let cuantos= cantidad.value;
     cuantos= parseInt(cuantos)
 
     if (cuantos < 0) {
